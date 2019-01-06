@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+      }
+      h1 {
+        color: black;
+      }
+      h2 {
+        color: green;
+      }
+      li  {
+        color:darkmagenta ;
+        text-transform: capitalize;
+      }
+      /* . is for classes */
+      .container {
+        display: flex;
+        background-color: grey;
+        /* flex-direction: column; */
+      }
+      .box {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        border-radius: 10px;
+      }
+      .box-1 {
+        background-color: blue;
+      }
+      .box-2 {
+        background-color: teal;
+      }
+      .box-3 {
+        background-color: red;
+      }
+      .box-4 {
+        background-color: wheat;
+      }
+      .navbar {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color:#35C4E5;
+      }
+      .navbar-title {
+        color:white;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      .entries {
+        margin-top: 20px;
+        border-top: solid;
+        border-color: black;
+        border-width: 4px;
+        padding: 10px;
+      }
+      .entry {
+        border-top: solid;
+        border-style: dashed;
+        border-width: 2px;
+        padding: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+
+    <nav class="navbar">
+      <h1 class="navbar-title">My Journal</h1>
+    </nav>
+
+
+<!-- Center family -->
+<!-- Center family members -->
+
+<!-- Make the names of each of the girls you've dated bold and font size 30px -->
+<!-- Make the p tags for each of them into bullets (unordered-list, ul)  -->
+<!-- Make the h2 tags some other color that's not ugly green -->
+<!-- Add styling to the <div> that contains Family & Relationships to give it more padding horizontally -->
+
+    <div>
+      <h2>Family</h2>
+      <ul>
+        <li>isabel</li>
+        <li>paola</li>
+          <li>johann</li>
+      </ul>
+      <h2>Relationships</h2>
+      <ol><!-- Ordered List -->
+        <li>Denise</li><!-- List Item -->
+          <p>Positive, study-buddy</p><!-- Paragraph -->
+          <p>Blocked me from all social media accounts</p>
+          <a href="./girlfriends/denise.html">Learn more about Denise</a>
+        <li>Leslie</li>
+          <p>Toxic girlfriend</p>
+          <a href="./girlfriends/leslie.html">Why’s she so toxic?</a>
+        <li>Liz</li>
+      </ol>
+    </div>
+
+    <div class="entries">
+      <div class="entry">
+        <p>
+          This is your first journal entry here
+        </p>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="box box-1">
+        <p>1</p>
+      </div>
+
+      <div class="box box-2">
+        <p>2</p>
+      </div>
+
+      <div class="box box-3">
+        <p>3</p>
+      </div>
+
+      <div class="box box-4">
+        <p>4</p>
+      </div>
+
+    </div>
+  </body>
+
+
+
+</html>
